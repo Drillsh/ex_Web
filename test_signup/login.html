@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>로그인</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h3>로그인</h3>
+    </div>
+
+    <!-- <div id="group_loginInput">
+        <input type="text" name="loginId" id="loginId"><br>
+        <input type="password" name="password" id="password">
+    </div>
+
+    <div id="loginButton">
+        <input type="button" value="로그인" id="loginButton" style="width: 50px; height: 45px;">
+    </div> -->
+
+
+    <table>
+        <tr>
+            <td>
+                <input type="text" name="loginId" id="loginId" style="width: 200px; height: 30px;" placeholder="아이디 or 이메일">
+            </td>
+            <td rowspan="2"><input type="button" value="로그인" id="loginButton" style="width: 73px; height: 73px; background-color: red;"></td>
+        </tr>
+        <tr>
+            <td>
+            <input type="password" name="password" id="password" style="width: 200px; height: 30px;" placeholder="비밀번호">
+            <td>
+        </tr>
+    </table>
+
+    
+
+    <div id="group_checkbox">
+        <input type="checkbox" name="cbRetain" id="cbRetain"> 로그인 상태 유지
+        <input type="checkbox" name="cbSaveId" id="cbSaveId"> 아이디 저장
+    </div>
+
+    <div id="group_button"> 
+        <input type="button" value="아이디 찾기">
+        <input type="button" value="비밀번호 찾기">
+        <input type="button" value="회원가입">
+    </div>
+</body>
+
+</html>
