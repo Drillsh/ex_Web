@@ -1,0 +1,115 @@
+div{
+    border: 1px solid black;
+    margin: 0.2em;
+    padding: 0.5em;
+    text-align: center;
+}
+span{
+    border: 1px solid red;
+    margin: 0.2em;
+}
+
+div#page{
+    width: 60em;
+    margin: 0 auto;
+}
+
+div#header_page{
+    height: 13em;
+}
+
+div#userBar_header{
+    height: 3em;
+}
+
+div#tap_header{
+    height: 7em;
+}
+
+div#top_page{
+    height: 42em;
+}
+
+div#category{
+    height: 5em;
+}
+
+div#mainNews{
+    height: 16em;
+}
+
+div#mainNews > div{
+    width: 12.7em;
+    height: 13em;
+    float: left;
+}
+
+div#subNews{
+    height: 15em;
+}
+
+div#subNews span{
+    width: 13em;
+    height: 5em;
+    display: inline-block;
+}
+
+div#mid_page{
+    height: 50em;
+}
+
+div#mid_cardNews{
+    width: 40em;
+    float: left;
+}
+
+div#mid_page span.news{
+    height: 10em;
+    width: 25em;
+    display: inline-block;
+}
+
+div#mid_page span.img{
+    height: 10em;
+    width: 10em;
+    display: inline-block;
+}
+
+div#mid_page > div#mid_sideAd{
+    float: left;
+    width: 15.3em;
+    height: 35.7em;
+}
+
+div#mid_bottomNews{
+    clear: both;
+}
+
+div#mid_bottomNews > span{
+    width: 13em;
+    height: 10em;
+    display: inline-block;
+}
+
+div#bottom_page{
+    height: 38em;
+}
+
+div#categoryNews{
+    float: left;
+}
+
+div#categoryNews > div.news{
+    width: 38.5em;
+    height: 10em;
+}
+
+div#bottom_sideAd{
+    float: left;
+    height: 34.2em;
+    width: 15em;
+}
+
+div#information{
+    height: 7em;
+}
