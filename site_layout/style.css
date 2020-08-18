@@ -81,6 +81,14 @@ div#mid_page > div#mid_sideAd{
     height: 35.7em;
 }
 
+div#mid_sideAd > div{
+    height: 16.5em;
+}
+
+div#bottom_sideAd > div{
+    height: 16.5em;
+}
+
 div#mid_bottomNews{
     clear: both;
 }
