@@ -1,0 +1,11 @@
+<script>
+
+    var dan = prompt('몇단을 출력할까요? (1 ~ 9단)');
+
+    document.write('<h1>' + dan + '단</h1><ul>');
+    for (var j = 1; j < 10; ++j) {
+        document.write('<li>' + dan + '*' + j + '= ' + (parseInt(dan) * j) + '</li>');
+    }
+    document.write('</ul>');
+
+</script>

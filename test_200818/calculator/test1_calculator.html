@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="test1_calculator.js"></script>
+</head>
+
+<body>
+    <form action="#" style="text-align: center; margin-top: 10em;">
+        <label for="value1">값1</label>
+        <input type="text" id="value1"><br>
+
+        <label for="value2">값2</label>
+        <input type="text" id="value2"><br>
+
+        <label for="result">결과값</label>
+        <input type="text" id="result" style="margin-bottom: 1em;"><br>
+
+        <input type="radio" name="radio_answer" id="add" value="+" />+
+        <input type="radio" name="radio_answer" id="sub" value="-" />-
+        <input type="radio" name="radio_answer" id="mul" value="*" />*
+        <input type="radio" name="radio_answer" id="div" value="/" />/
+        <br>
+        <div style="margin-top: 1em;">
+            <input type="button" value="결과보기" onclick="calculator()" />
+            <input type="button" value="초기화" onclick="init()"/>
+        </div>
+    </form>
+</body>
+
+</html>
